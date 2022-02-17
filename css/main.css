@@ -1,0 +1,82 @@
+a {
+  color: rgb(0, 204, 255);
+  text-decoration: none;
+}
+
+body {
+  background-image: linear-gradient(to bottom, rgb(192, 246, 255), grey ,#111);
+}
+
+button {
+  background-color: rgb(205, 235, 230);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 14px;
+  margin: 0px 0px;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+button:hover {background-color: rgb(186, 200, 204);}
+
+iframe {
+  border: none;
+  width: 100%;
+  height: 95%;
+}
+
+.a-loader-title {
+  z-index: 1;
+  position: absolute;
+  font-family: PingFangSC-Regular, sans-serif;
+  visibility: collapse;
+}
+
+.nft-overlay {
+  z-index: 1;
+  margin: 0;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.ui {
+  color: #fff;
+  z-index: 1;
+  position: absolute;
+  margin: 0px;
+  bottom: 0px;
+  display: none;
+}
+
+#intro {
+  z-index: 1;
+  position: relative;
+  font-family: PingFangSC-Regular, sans-serif;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: 22em;
+  background-color: #fff;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 8px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+#intro-button {
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0%;
+}
